@@ -1,16 +1,18 @@
 export const friends = [
     {
-        id: "leilani-angel",
+        id: 1,
+        photo: "leilani-angel",
         name: "John Boe",
         email: "JaneAoe@email.com"
     },
     {
-        id: "jake-nackos",
+        id: 2,
+        photo: "jake-nackos",
         name: "Jane Aoe",
         email: "JohnBoe@email.com"
     },
-    {
-        id: "charles-etoroma",
+    {   id: 3,
+        photo: "charles-etoroma",
         name: "Boon Coe",
         email: "BoonCoe@email.com"
     },

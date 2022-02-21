@@ -4,10 +4,14 @@ import Card from './Card';
 const CardList = ({friends}) => {
     return(
         <div>
+
             {
+
             friends.map((friend, idx) =>{
                 return( <Card key={idx}
                     id={friends[idx].id}
+                    //photo={friends[photo].photo}
+                    //photo={`../images/${photo}.jpg`}
                     name={friends[idx].name}
                     email={friends[idx].email}/>
         );

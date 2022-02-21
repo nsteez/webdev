@@ -1,5 +1,5 @@
-## This Project made using React components. Its an app geared to keep track of your friends.
-## it has a search feature where you can search for the name and if found will show you their contact information
+## This Project is made using React components. Its an app that keeps track of your friends.
+## It has a search feature where you can search for the name and if found will show you their contact information. The friends contact information is stored on an outside json server.
 ## Available Scripts
 
 In the project directory, you can run:

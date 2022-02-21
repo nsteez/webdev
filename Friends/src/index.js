@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';   //<App />
+import App from './Containers/App';   //<App />
 //import Card from './Card';
 //import CardList from './CardList';
 import reportWebVitals from './reportWebVitals';
-import 'tachyons'
+import 'tachyons';
+
 //import {friends} from './friends';
 
 ReactDOM.render(
   <React.StrictMode>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=M+PLUS+Code+Latin:wght@500&family=Poiret+One&display=swap');
+    </style>
+
     <App />
-
-
   </React.StrictMode>,
   document.getElementById('root')
 );
